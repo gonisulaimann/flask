@@ -1,3 +1,3 @@
-from flask import Module
+from flask import Blueprint
 
-mod = Module(__name__, "foo", subdomain="foo")
+bp = Blueprint("foo", __name__, subdomain="foo")
